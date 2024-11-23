@@ -13,4 +13,8 @@ Requests from regions exhibiting the Fascist tag will be rejected.
 Requests from regions possessing embassies with regions condemned by Sector Zero will be rejected.
 Requests from regions possessing embassies with regions exhibiting the Fascist tag will be rejected.
 
+[b]Embassy Protocol Revocation[/b]
+Sector Zero reserves the right to, where not in conflict with any other protocol, revoke any Embassy Protocol.
+Regions lacking embassy protocols will have their In-Game embassy withdrawn.
+
 To request protocols be added for an In-Game embassy, Telegram [nation]Remordias[/nation].
