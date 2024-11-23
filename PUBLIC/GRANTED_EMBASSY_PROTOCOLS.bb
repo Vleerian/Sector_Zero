@@ -1,0 +1,5 @@
+[background-block=#c30000][hr][center][img]https://i.imgur.com/9J1Rqfs.png[/img][/center][hr][/background-block]
+[b][size=150][color=c30000]Granted Embassy Protocols[/color][/size][/b]
+[list]
+[*] [region]Keep of Darkness XL[/region]
+[/list]
