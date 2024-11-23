@@ -4,7 +4,7 @@
 Embassies with [region]Sector Zero[/region] are restricted to regions which have had an In-Game embassy afforded by a protocol in the repository.
 
 Requests for an In-Game embassy before such protocols have been ratified will be rejected.
-[b][size=50][color=c30000]Embassy Requirements[/color][/size][/b]
+[b][size=150][color=c30000]Embassy Requirements[/color][/size][/b]
 [hr][b]Tags[/b]
 Tags will be used to determine a region's eligibility for Embassy Protocols.
 Requests from regions exhibiting the Fascist tag will be rejected.
