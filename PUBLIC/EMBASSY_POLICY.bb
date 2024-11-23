@@ -3,10 +3,14 @@
 [b][size=150][color=c30000]Embassy Protocols[/color][/size][/b]
 Embassies with [region]Sector Zero[/region] are restricted to regions which have had an In-Game embassy afforded by a protocol in the repository.
 
-Requets for an In-Game embassy before such protocols have been ratified will be rejected.
+Requests for an In-Game embassy before such protocols have been ratified will be rejected.
 [b][size=50][color=c30000]Embassy Requirements[/color][/size][/b]
 [hr][b]Tags[/b]
-Regions seeking Embassy Protocols may not exhibit any of the following:[list]
-[*]Fascist[*]Religious paired with Conservative[*]Anti-Communist lacking Anti-Fascist[/list]
+Tags will be used to determine a region's eligibility for Embassy Protocols.
+Requests from regions exhibiting the Fascist tag will be rejected.
+
+[b]Third-Party Embassies[/b]
+Requests from regions possessing embassies with regions condemned by Sector Zero will be rejected.
+Requests from regions possessing embassies with regions exhibiting the Fascist tag will be rejected.
 
 To request protocols be added for an In-Game embassy, Telegram [nation]Remordias[/nation].
