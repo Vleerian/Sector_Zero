@@ -1,6 +1,0 @@
-[background-block=#c30000][hr][center][img]https://i.imgur.com/9J1Rqfs.png[/img][/center][hr][/background-block]
-[b][size=150][color=c30000]Granted Embassy Protocols[/color][/size][/b]
-[table][tr][td]Grant Index[/td][td]Region[/td][td]Diagnostic Score[/td][td]Ratification Commit[/td][/tr]
-[tr][td]0[/td][td][region]Keep of Darkness XL[/region][/td][td][color=60F0A8]390[/color][/td][td][color=cyan]e5230a5[/color][/td][/tr]
-[tr][td]1[/td][td][region]The Celestial Order[/region][/td][td][color=60F0A8]200[/color][/td][td][color=cyan]95cbacc[/color][/td][/tr]
-[/table]
