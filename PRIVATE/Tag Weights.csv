@@ -1,0 +1,10 @@
+tag_name,note,score
+fascist,fascism as an ideology is condemned,-1000
+anti-fascist,Sector Zero welcomes those who oppose fascism,10
+defender,Sector Zero is not defender aligned,-10
+invader,Sector Zero is friendly with raiders,10
+cyberpunk,Sector Zero welcomes fellow cyberpunk regions,10
+security council,Sector Zero opposes the Security Council,-10
+general assembly,Sector Zero opposes the General Assembly,-20
+anti-general assembly,Sector Zero welcomes opponents of the General Assembly,20
+anti-security council,Sector Zero welcomes opponents of the Security Council,10
