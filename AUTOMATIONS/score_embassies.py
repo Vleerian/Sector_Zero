@@ -18,7 +18,7 @@ print("Reading tag weights...")
 Tag_Weights = [Tag for Tag in csv.DictReader(open("PRIVATE/Tag Weights.csv", "r"))]
 
 print("Fetching regions by tag...")
-headers = { "User-Agent":f"S0 Scanner/0.1 (by vleerian (discord) vleerian@hotmail.com in use by Vleerian)" }
+headers = { "User-Agent":f"S0 Scanner/0.1 (by vleerian (discord) vleerian@hotmail.com in use by {sys.argv[1]})" }
 tagged_regions = {}
 for tag in Tag_Weights:
     print(f"Requesting {tag["tag_name"]} tagged regions...")
