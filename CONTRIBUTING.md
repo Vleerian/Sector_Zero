@@ -43,3 +43,13 @@ type(scope)!: subject
 
 ### Style
 Try to keep the first commit line short. Try keep the commit subject clear and precise enough that what has changed is clear from just reading a changelog. If you need more space, use the commit body.
+
+### Embassy Protocols
+With the implementation of 3ee56fbb3b, the embassy manifest can be dynamically generated when needed.
+As a result, Embassy Protocol grants and revokes will be exclusively represented with the commit log.
+Embassy Protocol Grants are to
+- Be typed as `ratify` with a scope of `i/o`
+- Be empty commits
+- Have a commit message formatted as (grant/revoke) embassy protocol to (region)
+An example commit command would be
+`git commit --allow-empty -m "ratify(i/o) grant embassy protocol to Sector Zero"`
