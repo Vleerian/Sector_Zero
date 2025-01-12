@@ -1,6 +1,6 @@
 # [Sector Zero](https://www.nationstates.net/region=sector_zero)
 <p align="center">
-	<img src="/ASSETS/Logo.png"><br>
+	<img src="ASSETS/Logo.png"><br>
     Main Repository for Sector Zero
 </p>
 ## About
