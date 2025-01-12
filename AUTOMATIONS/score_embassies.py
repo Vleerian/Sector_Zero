@@ -9,6 +9,8 @@ This generates the Embassy Protocol manifest CSV
 It uses git logs to track what embassies have been granted
 Presently, tag weights are not programmatically defined, so they
 are stored in a tag weights manifest.
+git_log.txt must be generated prior to running, generate it using
+`git --no-pager log --pretty=format:"%H%x09%an%x09%x09%s" > git_log.txt`
 
 usage: python score_embassies.py MAIN_NATION
 """
