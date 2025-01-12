@@ -22,7 +22,7 @@ def canonnicalize(region : str):
 
 log("INFO", "Fetching Embassy Grants from the repository...")
 # Fetch all the data needed to construct the manifests
-repository = re.findall("(.{7}).*((?:grant)|(?:revoke)) embassy protocol to (.*)", open(".git/logs/HEAD", "r").read(), flags=re.RegexFlag.IGNORECASE)
+repository = re.findall("^(.{7}).*((?:grant)|(?:revoke)) embassy protocol to (.*)$", open("git_log.txt", "r").read(), flags=re.RegexFlag.IGNORECASE | re.RegexFlag.MULTILINE)
 Embassy_Grants = {}
 for entry in repository:
     Embassy_Grants[canonnicalize(entry[2])] = (entry[0], entry[1].lower() == "grant")
