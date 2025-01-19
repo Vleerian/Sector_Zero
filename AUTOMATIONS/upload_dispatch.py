@@ -25,11 +25,11 @@ subcategory = int(idInfo[2])
 # cut out extra whitespace off the body and format it for upload
 dispatchText = str(urllib.parse.quote(body.strip().replace(b"\n",b"")))
 
-log("INFO", f"Preparing to upload to discpatch#{dispatchID}@{sys.argv[2]}")
+log("INFO", f"Preparing to upload to discpatch#{dispatchID}@{sys.argv[1]}")
 log("INFO", f"Title: {str(headerSplit[0])}")
 # Build out the URIs and UserAgent
 userAgent = f"Sector_Zero_Dispatch_Uploader (vleerian on discord, vleerian@hotmail.com, in use by {sys.argv[1]})"
-baseAPI = f"https://www.nationstates.net/cgi-bin/api.cgi?nation={sys.argv[2]}"
+baseAPI = f"https://www.nationstates.net/cgi-bin/api.cgi?nation={sys.argv[1]}"
 
 editDispatchPart = f"&c=dispatch&dispatch=edit&dispatchid={dispatchID}&title={dispatchTitle}&category={category}&subcategory={subcategory}"
 editDispatchPart += f"&text={dispatchText}"
