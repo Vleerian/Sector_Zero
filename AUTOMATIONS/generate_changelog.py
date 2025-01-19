@@ -20,7 +20,9 @@ repository = re.findall("^([^ ]*)\t.*\t(.*)$", open("git_log.txt", "r").read(), 
 StartIndex = [i for i in range(len(repository)) if Target_Checksum in repository[i][0]][0]
 NewCommits = repository[:StartIndex]
 
-print(f"[b]Changelog[/b] for {NewCommits[-1][0][:7]} -> {NewCommits[0][0][:7]}")
-print(f"[i]More recent changes are at the top[/i]")
-for entry in NewCommits:
-    print(f"{entry[0][:7]} - {entry[1]}")
+generated_changelog = f"[b]Changelog[/b] for {NewCommits[-1][0][:7]} -> {NewCommits[0][0][:7]}\n"
+generated_changelog += f"[i]More recent changes are at the top[/i]\n"
+generated_changelog += "\n".join([f"{entry[0][:7]} - {entry[1]}" for entry in NewCommits])
+with open("PUBLIC/CHANGELOG.txt", "w+") as file:
+    file.write(generated_changelog)
+print(generated_changelog)
